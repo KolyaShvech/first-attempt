@@ -22,15 +22,15 @@
 # print('Sum ', sm)
 
 # -------------------- Треуголник Паскаля
-# def pascal_triangle(n):
-#     row = [1]
-#     y = [0]
-#     for x in range(max(n, 0)):
-#         print(row)
-#         row = [left + right for left, right in zip(row + y, y + row)]
-#
-#
-# pascal_triangle(7)
+def pascal_triangle(n):
+    row = [1]
+    y = [0]
+    for x in range(max(n, 0)):
+        print(row)
+        row = [left + right for left, right in zip(row + y, y + row)]
+
+
+pascal_triangle(8)
 
 
 # ----------------------Обмен валют
@@ -59,14 +59,14 @@
 
 
 # ------------------Факториал числа
-number = int(input('Введите число: '))
-factorial = 1
-for i in range(1, number + 1):
-    factorial *= i
-print('Факториал для', number, 'равен', factorial)
-
-for i in range(0, 10):
-    print(i)
+# number = int(input('Введите число: '))
+# factorial = 1
+# for i in range(1, number + 1):
+#     factorial *= i
+# print('Факториал для', number, 'равен', factorial)
+#
+# for i in range(0, 10):
+#     print(i)
 
 # -------------------Таблица умножения
 # for i in range(1, 11):
