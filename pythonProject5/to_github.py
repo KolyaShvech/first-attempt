@@ -23,7 +23,7 @@
 
 # -------------------- Треуголник Паскаля
 def pascal_triangle(n):
-    row = [1]
+    row = [2]
     y = [0]
     for x in range(max(n, 0)):
         print(row)
