@@ -66,7 +66,7 @@ for i in range(1, number + 1):
 print('Факториал для', number, 'равен', factorial)
 
 for i in range(0, 10):
-    print(i, end='\t')
+    print(i)
 
 # -------------------Таблица умножения
 # for i in range(1, 11):
